@@ -1,0 +1,65 @@
+# 1st Trial
+# getting the error that the #0 moves in is not showing. This makes sense
+# because I'm setting board == 2 different elements.
+
+# 0_moves_in
+board = [" "," "," "," "," "," "," "," "," "]
+def display_board (board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+# 1_move_in
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+def display_board (board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   | X |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+
+# 2nd Trial
+# getting the error that 0_moves_in is not showing. Not sure why not when
+# I've set the 2 boards == to 2 different variables
+
+board0 = [" "," "," "," "," "," "," "," "," "]
+board1 = [" "," "," "," ","X"," "," "," "," "]
+def display_board (board0)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+def display_board (board1)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   | X |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+
+# 3rd Trial
+# getting text error with array parameters
+
+board = ([" "," "," "," "," "," "," "," "," "],
+[" "," "," "," ","X"," "," "," "," "])
+def display_board (board0)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
+def display_board (board1)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   | X |   "
+  puts "-----------"
+  puts "   |   |   "
+end
